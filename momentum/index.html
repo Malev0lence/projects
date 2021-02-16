@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/owfont-regular.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Momentum</title>
+</head>
+
+<body>
+  <div id="overlay"></div>
+  <div class="wrapper">
+    <div class="layout-3-cols">
+      <div class="col-1">
+        <blockquote data-quotation class="quotation col-1__item">
+          <p data-quotation-text class="quotation__text"></p>
+          <footer class="quotation__author">
+            <p data-quotation-author></p>
+          </footer>
+        </blockquote>
+      </div>
+
+      <div class="col-2">
+        <div class="date-time-wrapper">
+          <time data-time class="time"></time>
+          <div data-date class="date"></div>
+        </div>
+
+        <div class="greeting-wrapper">
+          <span data-greeting class="greeting"></span>
+          <span data-name class="name" contenteditable="true"></span>
+        </div>
+
+        <div class="focus-wrapper">
+          <h2>What is your focus for today?</h2>
+          <span data-focus class="focus" contenteditable="true"></span>
+        </div>
+
+        <div class="buttons-wrapper">
+          <button data-bg-change-button id="bgChange" class="btn">change bg</button>
+          <button data-quote-change-button id="quoteChange" class="btn col-1__item">change quote</button>
+        </div>
+
+      </div>
+
+      <div class="col-3">
+        <div class="weather">
+          <div class="city-wrapper">
+            <i data-weather-icon class="weather-icon owf"></i>
+            <div data-city class="city" contenteditable="true"></div>
+          </div>
+
+         <div class="weather-data">
+            <div data-temperature class="temperature"></div>
+            <div data-wind-speed class="wind-speed"></div>
+            <div data-humidity class="humidity"></div>
+            <div data-weather-description class="weather-description"></div>
+         </div>
+        </div>
+      </div>
+    </div>
+    <!--layout 3 cols-->
+  </div>
+  <!--wrapper-->
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
