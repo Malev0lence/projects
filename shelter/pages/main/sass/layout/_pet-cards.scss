@@ -1,0 +1,47 @@
+.pet-cards {
+  display: flex;
+  justify-content: space-between;
+  
+  @media screen and (max-width:767px){
+    margin-bottom: 2rem;
+  }
+}
+
+.pet-cards__item,
+.swiper-slide {
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+
+  @media screen and (max-width: 1279px){
+      &:nth-last-child(1) {
+    display: none;
+  }
+
+  margin-left: 4rem;
+  margin-right: 4rem;
+
+  &:first-child {
+    margin-left: 0;
+  }
+  &:nth-last-child(n-1) {
+    margin-right: 0;
+  }
+  }
+
+  @media screen and (max-width: 767px){
+  &:nth-last-child(-n+2) {
+    display: none;
+  }
+
+  margin-left: 4rem;
+  margin-right: 4rem;
+
+  &:first-child {
+    margin-left: 0;
+  }
+  &:nth-last-child(n-1) {
+    margin-right: 0;
+  }
+  }
+
+}

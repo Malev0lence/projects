@@ -1,0 +1,30 @@
+.carousel {
+  width: 100%;
+}
+
+.carousel__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6rem;
+
+  @media screen and (max-width: 767px){
+    margin-bottom: 4.2rem;
+    flex-direction: column;
+    .button-arrow {
+      order: 1;
+    }
+
+    .button-arrow__prev {
+      align-self: flex-start;
+      margin-left: 5.8rem;
+    }
+
+    .button-arrow__next {
+      align-self: flex-end;
+      margin-right: 5.8rem;
+      margin-top: -5.2rem;
+    }
+  }
+}

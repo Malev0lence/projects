@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pets</title>
+</head>
+<body>
+  <div class="overlay" id="overlay"></div>
+  <div class="overlay" id="overlay2"></div>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="logo header__logo">
+          <a href="../main/index.html">
+            <div class="logo__title">
+              <h1>Cozy House</h1>
+            </div>
+            <div class="logo__subtitle">Shelter for pets in Boston</div>
+          </a>
+        </div>
+
+        <nav class="nav">
+          <div class="logo nav__logo">
+            <a href="../main/index.html">
+              <div class="logo__title">
+                <h1>Cozy House</h1>
+              </div>
+              <div class="logo__subtitle">Shelter for pets in Boston</div>
+            </a>
+          </div>
+          <div class="nav__small-screen-wrapper">
+            <a class="nav__item" href="../main/index.html">About the shelter</a>
+            <a class="nav__item active" href="#">Our pets</a>
+            <a class="nav__item nav__item--disabled" href="#">Help the shelter</a>
+            <a class="nav__item nav__item--disabled" href="#">Contacts</a>
+          </div>
+
+        </nav>
+        <a class="burger" href="#"><img class="burger__image" src="../../assets/icons/icon-burger-colored.png"
+            alt=""></a>
+      </div>
+    </div>
+  </header>
+
+  <section class="our-friends">
+    <div class="container">
+      <div class="our-friends__inner">
+        <h3 class="our-friends__title">Our friends who<br>are looking for a house</h3>
+        <div class="carousel">
+          <div class="carousel__wrapper" id="pets">
+            
+            <div class="pet-cards">
+              <div data-popup-target='#popup' class="pet-card pet-cards__item">
+                <img class="pet-card__photo"src="../../assets/images/pets-katrine.jpg" alt="cat">
+                <h4>Katrine</h4>
+                <button data-popup-target='#popup' class="button">Learn more</button>
+              </div>
+              <div data-popup-target='#popup' class="pet-card pet-cards__item">
+                <img class="pet-card__photo"src="../../assets/images/pets-jennifer.jpg" alt="puppy">
+                <h4>Jennifer</h4>
+                <button data-popup-target='#popup' class="button">Learn more</button>
+              </div>
+              <div data-popup-target='#popup' class="pet-card pet-cards__item">
+                <img class="pet-card__photo"src="../../assets/images/pets-woody.jpg" alt="dog">
+                <h4>Woody</h4>
+                <button data-popup-target='#popup' class="button">Learn more</button>
+              </div>
+              <div data-popup-target='#popup' class="pet-card pet-cards__item">
+                <img class="pet-card__photo"src="../../assets/images/pets-sophia.jpg" alt="dog">
+                <h4>Sophia</h4>
+                <button data-popup-target='#popup' class="button">Learn more</button>
+              </div>
+              <div data-popup-target='#popup' class="pet-card pet-cards__item">
+                <img class="pet-card__photo"src="../../assets/images/pets-timmy.jpg" alt="dog">
+                <h4>Timmy</h4>
+                <button data-popup-target='#popup' class="button">Learn more</button>
+              </div>
+              <div data-popup-target='#popup' class="pet-card pet-cards__item">
+                <img class="pet-card__photo"src="../../assets/images/pets-charly.jpg" alt="dog">
+                <h4>Charly</h4>
+                <button data-popup-target='#popup' class="button">Learn more</button>
+              </div>
+              <div data-popup-target='#popup' class="pet-card pet-cards__item">
+                <img class="pet-card__photo"src="../../assets/images/pets-scarlet.jpg" alt="dog">
+                <h4>Scarlett</h4>
+                <button data-popup-target='#popup' class="button">Learn more</button>
+              </div>
+              <div data-popup-target='#popup' class="pet-card pet-cards__item">
+                <img class="pet-card__photo"src="../../assets/images/pets-freddie.jpg" alt="dog">
+                <h4>Freddie</h4>
+                <button data-popup-target='#popup' class="button">Learn more</button>
+              </div>
+            </div>
+
+            <div class="popup" id='popup'>
+              <button data-close-button class="button button-close popup__button-close"><img src="../../assets/icons/button-close.png" alt=""></button>
+              <div class="popup__image">
+                <img data-popup-image src="../../assets/images/pets-jennifer.jpg" alt="">
+              </div>
+      
+              <div class="popup__content">
+                <h3 data-popup-title class="popup__title">Jennifer</h3>
+                <h4 data-popup-subtitle class="popup__subtitle">Dog - Labrador</h4>
+                <p data-popup-pet-description class="popup__pet-description">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find
+                  a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to
+                  play up a storm in the house if she has all of her favorite toys.</p>
+      
+                <ul class="popup__list">
+                  <li data-popup-age class="popup__list-item"><b>Age:</b> 2 months</li>
+                  <li data-popup-inoculations class="popup__list-item"><b>Inoculations:</b> none</li>
+                  <li data-popup-diseases class="popup__list-item"><b>Diseases:</b> none</li>
+                  <li data-popup-parasites class="popup__list-item"><b>Parasites:</b> none</li>
+                </ul>
+              </div>
+            </div> <!-- Popup end -->
+
+          </div>
+        </div>
+          <ul class="pagination">
+            <li class="pagination__item"><button class="button button-arrow button-arrow-disabled" disabled><<</button></li>
+            <li class="pagination__item" disabled><button class="button button-arrow button-arrow-disabled" id="prevPage"><</button></li>
+            <li class="pagination__item"><button class="button button-arrow button-colored button-active" id="currentPage">1</button></li>
+            <li class="pagination__item"><button class="button button-arrow" id="nextPage">></button></li>
+            <li class="pagination__item"><button class="button button-arrow">>></button></li>
+          </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="background-wrapper">
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="contacts">
+            <h3 class="contacts__title">For questions and suggestions</h3>
+            <div class="contacts-wrapper">
+              <div class="contacts__mail">
+                <a href="mailto:#"><img src="../../assets/icons/icon-email.png" class="ico ico-mail" alt="email-icon"></a>
+                <a class="contacts__title-colored" href="mailto:#"><h4 class="contacts__title-colored">email@shelter.com</h4></a>
+              </div>
+
+              <div class="contacts__phone">
+                <a href="tel:+136745677554"><img src="../../assets/icons/icon-phone.png" class="ico ico-tel"></a>
+                <a class="contacts__title-colored" href="tel:+136745677554"><h4 class="contacts__title-colored">+13 674 567 75 54</h4></a>
+              </div>
+            </div>
+            
+          </div>
+  
+          <div class="location">
+            <h3 class="location__title">We are waiting <br class="hidden">for your visit</h3>
+            <div class="location-wrapper">
+              <div class="location__item">
+                <a href="https://tinyurl.com/y6jv2hxt" target="_blank"><img src="../../assets/icons/icon-marker.png" class="ico ico-location"></a>
+                <a class="location__title-colored" href="https://tinyurl.com/y6jv2hxt" target="_blank"><h4 class="location__title-colored">1 Central Street, Boston (entrance from the store)</h4></a>
+              </div>
+              <div class="location__item">
+                <a href="https://tinyurl.com/y6ngm7xu" target="_blank"><img src="../../assets/icons/icon-marker.png" class="ico ico-location"></a>
+                <a class="location__title-colored" href="https://tinyurl.com/y6ngm7xu" target="_blank"><h4 class="location__title-colored">18 South Park, London</h4></a>
+              </div>
+            </div>
+  
+          </div>
+  
+          <div class="footer__puppy">
+            <img src="../../assets/images/footer-puppy.png" alt="puppy">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

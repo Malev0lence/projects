@@ -1,0 +1,77 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  overflow-x: hidden;
+}
+.html--active {
+  overflow-y: hidden;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  font-family: $font-family-main;
+  font-style: normal;
+  font-weight: normal;
+  // @media screen and (max-width: 767px){
+  //   margin: 0 auto;
+  //   width: 100%;
+  // }
+}
+
+.body--active {
+  overflow: hidden !important;
+}
+
+.darken {
+  background: rgba(41, 41, 41, 0.6);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-secondary;
+  font-style: normal;
+  font-weight: normal;
+
+  color: $color-dark-l;
+}
+
+h1, h3, h4, h5 {
+  letter-spacing: 0.06em;
+}
+
+h1 {
+font-size: 3.2rem;
+line-height: 3.5rem;
+
+color: $color-primary;
+}
+
+h2 {
+  font-size: 4.4rem;
+  line-height: 5.7rem;
+}
+
+h3 {
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+
+  @media screen  and (max-width: 767px){
+    font-size: 2.5rem;
+  }
+}
+
+h4 {
+  font-size: 2rem;
+  line-height: 2.3rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+}
+

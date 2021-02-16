@@ -1,0 +1,23 @@
+.carousel {
+  width: 100%;
+
+  @media (max-width:1279px) {
+    width: 58rem;
+  }
+
+  @media (max-width:767px) {
+    width: 27rem;
+  }
+}
+
+.carousel__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+
+  @media (max-width: 1279px) {
+    margin-bottom: 1rem;
+  }
+}
