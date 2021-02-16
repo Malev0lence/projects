@@ -1,0 +1,665 @@
+body {
+    margin: 0 auto;
+    min-width: 1600px;
+    max-width: 1600px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hidden-title {
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 0;
+}
+
+header {
+    min-height: 69px;
+    background-color: #000;
+}
+
+.header-nav {
+    margin: 0 auto;
+    width: 625px;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    padding-top: 39px;
+
+
+    list-style: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.header-nav li {
+    padding-left: 13px;
+    padding-right: 28px;
+}
+
+.header-nav a {
+    color: #FFFFFF;
+    opacity: 0.8; 
+}
+
+.header-nav .selected a {
+    font-weight: 500;
+    opacity: 1;
+
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.header-nav a:hover {
+    font-weight: 400;
+    opacity: 1;
+
+    border-bottom: 2px solid #FFFFFF;
+    transition: .2s;
+}
+
+.logo {
+    margin-top: -14px;
+}
+
+.logo a:hover {
+    cursor: pointer;
+    border: none;
+    opacity: 1;
+}
+
+
+.your-life {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 155px;
+    min-height: 669px;
+    background-image: url(./assets/bg-image-wrapper.jpg);
+    background-repeat: no-repeat;
+    background-position-y: -75px;
+}
+
+.webdev-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.your-life h1 {
+    margin: 0;
+    padding: 0;
+    padding-left: 4px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+
+.your-life p {
+
+    width: 504px;
+    height: 50px;
+    margin-top: 22px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.get-started {
+    width: 184px;
+    height: 46px;
+
+    margin-top: 12px;
+
+    background-color: #00AFDB;
+    border: none;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.get-started:hover {
+    background-color: #009CC2;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.your-life .social-links {
+    display: flex;
+    width: 170px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+    margin-top: 181px;
+    justify-content: space-between;
+}
+
+.your-life .social-links li:hover {
+    opacity: 0.8;
+}
+
+.rappresent {
+    min-height: 842px;
+    width: 1062px;
+    margin: 0 auto;
+    margin-top: -35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rappresent-about-us {
+    width: 407px;
+    padding-top: 155px;
+}
+
+.rappresent-col-left h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #373737;
+    width: 368px;
+}
+
+.rappresent-col-left p {
+    margin-top: 22px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+
+    color: #4E4E4E;
+}
+
+.rappresent-col-left .get-started {
+    margin-top: 15px;
+}
+
+.our-community {
+    min-height: 504px;
+    margin-top: -120px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #F5F6F7;
+
+}
+
+.community-col-left {
+    margin-left: 269px;
+    margin-top: 70px;
+}
+
+.user-card {
+    margin-top: 85px;
+    width: 298px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.user-card h1 {
+    margin-top: 20px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+
+    color: #373737;
+}
+
+.user-card p {
+    margin-top: 0;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+ 
+    text-align: center;
+
+    color: #4E4E4E;
+}
+
+.community-col-right {
+    margin-top: 70px;
+}
+
+.breadcrumbs {
+    list-style: none;
+    display: flex;
+
+    margin-top: 13px;
+    margin-left: 502px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 4px;
+
+    color: #373737;
+}
+
+.arrow-left {
+    margin-right: 15px;
+}
+
+.arrow-left:hover {
+    cursor: pointer;
+    opacity: .5;
+    transition: .2s;
+}
+
+.arrow-right {
+    margin-left: 10px;
+}
+
+.arrow-right:hover {
+    cursor: pointer;
+    opacity: .5;
+    transition: .2s;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    width: 894px;
+    overflow: hidden;
+}
+
+.carousel img {
+    padding-left: 30px;
+}
+
+.carousel img:first-child {
+    padding-left: 0;
+}
+
+.implement {
+    display: flex;
+}
+
+.implement-col-left {
+    padding-top: 120px;
+    padding-left: 269px;
+}
+
+.implement-col-right {
+    width: 407px;
+    padding-top: 303px;
+    padding-left: 140px;
+
+
+}
+
+.implement-col-right h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #373737;
+
+
+}
+
+.implement-col-right p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+
+    color: #4E4E4E;
+    padding-top: 5px;
+    padding-left: 0;
+}
+
+.implement-col-right .get-started {
+    margin-top: 15px;
+    width: 179px;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    margin-top: 136px;
+    min-height: 524px;
+    background-image: url("./assets/bg-2.jpg");
+}
+
+.sign-up form {
+    padding-top: 199px;
+}
+
+.sign-up label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-left: 13px;
+}
+
+.sign-up-input-wrapper {
+
+    display: flex;
+    margin-top: 30px;
+    width: 406px;
+    height: 46px;
+    justify-content: space-between;
+}
+
+.sign-up input[type="email"] {
+    box-sizing: border-box;
+    padding: 0;
+    padding-left: 24px;
+    padding-top: 3px;
+    height: 46px;
+    width: 340px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #373737;
+    border: none;
+}
+
+.sign-up input[type="email"]::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+
+    color: #373737;
+
+    opacity: 0.5;
+}
+
+
+.sign-up button {
+    margin: 0;
+    padding: 0;
+    height: 46px;
+    width: 66px;
+    border: none;
+    background-color: #00AFDB;
+    box-sizing: border-box;
+    padding-top: 8px;
+}
+
+.sign-up button:hover {
+    cursor: pointer;
+    background-color: #009CC2;
+    transition: .5s;
+}
+
+.download {
+    width: 470px;
+    min-height: 464px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.download-wrapper h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #373737;
+}
+
+.download-wrapper p {
+    text-align: center;
+    margin-top: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 145%;
+
+    color: #4E4E4E;
+}
+
+.apple-wrapper{
+    width: 186px;
+    height: 46px;
+}
+
+.download-links {
+    width: 404px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 34px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apple-wrapper,
+.android-wrapper {
+    display: flex;
+    align-items: center;
+
+    margin-right: -1px;
+
+    width: 186px;
+    height: 46px;
+    background-color: #00AFDB;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.apple-wrapper a:first-child,
+.android-wrapper a:first-child {
+    display: block;
+    box-sizing: border-box;
+    width: 129px;
+    height: 100%;
+    padding-top: 16px;
+    padding-left: 18px;
+
+    color: #FFFFFF;
+
+}
+
+.android-wrapper {
+    margin-right: 2px;
+}
+
+.android-wrapper a:first-child {
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.apple-logo,
+.android-logo {
+    display: block;
+    box-sizing: border-box;
+    width: 59px;
+    height: 100%;
+    padding-top: 12px;
+    padding-left: 20px;
+    background-color: #009CC2;
+}
+
+.android-logo {
+    padding-top: 10px;
+    padding-left: 18px;
+}
+
+.apple-wrapper:hover, 
+.android-wrapper:hover {
+    background-color: #009CC2;
+    transition: .5s;
+}
+
+.apple-logo:hover,
+.android-logo:hover {
+    background-color: #00AFDB;
+    transition: .5s;
+}
+
+footer {
+    margin-top: -121px;
+    min-height: 185px;
+
+    display: flex;
+
+    background-color: #000;
+}
+
+.footer-col-left {
+    margin-top: 62px;
+    margin-left: 21px;
+}
+
+footer ul {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+    list-style: none;
+    display: flex;
+    padding-left: 140px;
+    box-sizing: border-box;
+    width: 500px;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer ul a:hover {
+    border-bottom: 2px solid #FFFFFF;
+    transition: .2s;
+}
+
+
+footer ul li:first-child::after {
+    content: url(./assets/mnu-items-divider.png);
+    padding-left: 20px;
+}
+
+footer ul li:nth-child(2)::after {
+    content: url(./assets/mnu-items-divider.png);
+    padding-left: 18px;
+}
+
+footer ul li:first-child {
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li:nth-child(2) {
+    margin-left: 20px;
+}
+
+footer ul li:nth-child(3) {
+    margin-left: 21px;
+}
+
+.footer-col-center {
+    margin-top: 61px;
+    margin-left: 257px;
+
+}
+
+.footer-col-center img:hover {
+    animation-name: color-loop;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-loop {
+    0% {filter: invert(83%) sepia(19%) saturate(416%) hue-rotate(281deg) brightness(92%) contrast(93%);}
+    100% {filter: invert(71%) sepia(66%) saturate(408%) hue-rotate(256deg) brightness(96%) contrast(84%);}
+}
+
+
+
+.footer-col-right {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+
+    color: #818181;
+
+    margin-top: 61px;
+    margin-left: 448px;
+}
