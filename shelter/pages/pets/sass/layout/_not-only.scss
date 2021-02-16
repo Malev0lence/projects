@@ -1,0 +1,29 @@
+.not-only__wrapper {
+  display: flex;
+}
+
+.not-only__content {
+  width: 38.3%;
+  padding-top: 22.3rem;
+
+}
+
+.not-only__title {
+  color: $color-light-xl;
+  margin-bottom: 4.2rem;
+}
+
+.not-only__text {
+  margin-bottom: 4.1rem;
+
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+
+  color: $color-dark-s;
+}
+
+.not-only__image {
+  margin-left: 4.2rem;
+  margin-bottom: -0.2rem;
+  padding-top: 6rem;
+}

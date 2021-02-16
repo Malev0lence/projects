@@ -1,0 +1,26 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.logo__title {
+  margin-bottom: 1rem;
+  h1 {
+    color: $color-dark-l;
+  }
+
+}
+
+.logo__subtitle {
+  padding-left: 0.4rem;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+
+  letter-spacing: 0.1em;
+
+  color: $color-dark-3xl;
+}

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Shelter</title>
+</head>
+
+<body>
+  
+  <div class="background-wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="logo header__logo">
+            <div class="logo__title">
+              <h1>Cozy House</h1>
+            </div>
+            <div class="logo__subtitle">Shelter for pets in Boston</div>
+          </div>
+
+          <nav class="nav">
+            <div class="logo nav__logo">
+              <div class="logo__title">
+                <h1>Cozy House</h1>
+              </div>
+              <div class="logo__subtitle">Shelter for pets in Boston</div>
+            </div>
+            <div class="nav__small-screen-wrapper">
+              <a class="nav__item active" href="index.html">About the shelter</a>
+              <a class="nav__item" href="../pets/index.html">Our pets</a>
+              <a class="nav__item nav__item--disabled" href="#">Help the shelter</a>
+              <a class="nav__item nav__item--disabled" href="#">Contacts</a>
+            </div>
+
+          </nav>
+          <a class="burger" href="#"><img class="burger__image" src="../../assets/icons/icon-burger-colored.png"
+              alt=""></a>
+        </div>
+      </div>
+    </header>
+    <section class="not-only">
+      <div class="container">
+        <div class="not-only__wrapper">
+          <div class="not-only__content">
+            <h2 class="not-only__title">Not only people <br>need a house</h2>
+            <p class="not-only__text">
+              We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will
+              love you more than anybody else in the world, you will see!
+            </p>
+
+            <a href="../pets/index.html"><button class="button button-colored">Make a friend</button></a>
+
+          </div>
+          <div class="not-only__image">
+            <img src="../../assets/images/start-screen-puppy.png" width="698" height="728" alt="dog">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div> <!-- background wrapper end-->
+  <div class="overlay" id="overlay"></div>
+  <section class="about">
+    <div class="container">
+      <div class="about__wrapper">
+        <div class="about__image">
+          <img src="../../assets/images/about-pets.png" alt="cat and dog">
+        </div>
+
+        <div class="about__content">
+          <h3 class="about__title">About the shelter <br> “Cozy House”</h3>
+          <p class="about__text">
+            Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a
+            family. The others will continue to live with us and will be waiting for a lucky chance to become dearly
+            loved.
+          </p>
+
+          <p class="about__text">
+            We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including
+            psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About
+            12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the
+            pets and would hardly ever leave them alone.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-friends">
+    <div class="container">
+      <div class="our-friends__inner">
+        <h3 class="our-friends__title">Our friends who<br>are looking for a house</h3>
+        <div class="carousel">
+          <div class="carousel__wrapper swiper-container">
+            <button class="button button-arrow button-arrow__prev"><img src="../../assets/icons/Arrow-left.png"
+              alt="prev"></button>
+
+            <div class="pet-cards">
+              <div data-popup-target='#popup' class="pet-card pet-cards__item swiper-slide">
+                <img class="pet-card__photo" src="../../assets/images/pets-katrine.jpg" alt="cat">
+                <h4>Katrine</h4>
+                <button class="button">Learn more</button>
+              </div>
+              <div data-popup-target='#popup' class="pet-card pet-cards__item swiper-slide">
+                <img class="pet-card__photo" src="../../assets/images/pets-jennifer.jpg" alt="puppy">
+                <h4>Jennifer</h4>
+                <button class="button">Learn more</button>
+              </div>
+              <div data-popup-target='#popup' class="pet-card pet-cards__item swiper-slide">
+                <img class="pet-card__photo" src="../../assets/images/pets-woody.jpg" alt="dog">
+                <h4>Woody</h4>
+                <button data-popup-target='#popup' class="button">Learn more</button>
+              </div>
+            </div> <!--Swiper wrapper-->
+            <button class="button button-arrow button-arrow__next"><img src="../../assets/icons/Arrow-right.png"
+                alt="next"></button>
+                
+          </div> <!--Swiper Container-->
+        </div>
+        <a href="../pets/index.html">
+          <button class=" button button-colored">Get to know the rest</button>
+        </a>
+
+      </div>
+
+      <div class="popup" id='popup'>
+        <button data-close-button class="button button-close popup__button-close"><img src="../../assets/icons/button-close.png" alt=""></button>
+        <div class="popup__image">
+          <img data-popup-image src="../../assets/images/pets-jennifer.jpg" alt="">
+        </div>
+
+        <div class="popup__content">
+          <h3 data-popup-title class="popup__title">Jennifer</h3>
+          <h4 data-popup-subtitle class="popup__subtitle">Dog - Labrador</h4>
+          <p data-popup-pet-description class="popup__pet-description">Jennifer is a sweet 2 months old Labrador that is patiently waiting to find
+            a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to
+            play up a storm in the house if she has all of her favorite toys.</p>
+
+          <ul class="popup__list">
+            <li data-popup-age class="popup__list-item"><b>Age:</b> 2 months</li>
+            <li data-popup-inoculations class="popup__list-item"><b>Inoculations:</b> none</li>
+            <li data-popup-diseases class="popup__list-item"><b>Diseases:</b> none</li>
+            <li data-popup-parasites class="popup__list-item"><b>Parasites:</b> none</li>
+          </ul>
+        </div>
+      </div> <!-- Popup end -->
+    </div>
+  </section>
+
+  <section class="help">
+    <div class="container">
+      <div class="help__content-wrapper">
+        <div class="help__header-wrapper">
+          <h3>How you can help <br> our shelter</h3>
+        </div>
+
+        <ul class="wanted-items">
+          <li class="wanted-items__item">
+            <img src="../../assets/icons/icon-pet-food.svg" alt="#">
+            <h4>Pet food</h4>
+          </li>
+          <li class="wanted-items__item">
+            <img src="../../assets/icons/icon-transportation.svg" alt="#">
+            <h4>Transportation</h4>
+          </li>
+          <li class="wanted-items__item">
+            <img src="../../assets/icons/icon-toys.svg" alt="#">
+            <h4>Toys</h4>
+          </li>
+          <li class="wanted-items__item">
+            <img src="../../assets/icons/icon-bowls-and-cups.svg" alt="#">
+            <h4>Bowls and cups</h4>
+          <li class="wanted-items__item">
+            <img src="../../assets/icons/icon-shampoos.svg" alt="#">
+            <h4>Shampoos</h4>
+          </li>
+          <li class="wanted-items__item">
+            <img src="../../assets/icons/icon-vitamins.svg" alt="#">
+            <h4>Vitamins</h4>
+          </li>
+          <li class="wanted-items__item">
+            <img src="../../assets/icons/icon-medicines.svg" alt="#">
+            <h4>Medicines</h4>
+          </li>
+          <li class="wanted-items__item">
+            <img src="../../assets/icons/icon-collars-leashes.svg" alt="#">
+            <h4>Collars / leashes</h4>
+          </li>
+          <li class="wanted-items__item">
+            <img src="../../assets/icons/icon-sleeping-area.svg" alt="#">
+            <h4>Sleeping areas</h4>
+          </li>
+        </ul>
+      </div> <!-- help content end -->
+    </div>
+  </section>
+
+  <section class="donation">
+    <div class="container">
+      <div class="donation__inner">
+        <div class="donation__image">
+          <img src="../../assets/images/donation-dog.png" alt="donation-dog">
+        </div>
+        <div class="donation__content">
+          <h3 class="donation__title">You can also <br>make a donation</h3>
+          <h5 class="donation__subtitle">Name of the bank / Type of bank account</h5>
+
+          <div class="credit-card">
+            <img class="credit-card__icon" src="../../assets/icons/credit-card.png" alt="credit-card"> <a
+              class="credit-card__number" href="#">8380 2880 8028 8791 7435</a>
+          </div>
+
+          <p class="donation__description">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Maecenas a ipsum at libero
+            sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames
+            ac ante ipsum primis in faucibus.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="background-wrapper">
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+
+          <div class="contacts">
+            <h3 class="contacts__title">For questions and suggestions</h3>
+            <div class="contacts-wrapper">
+              <div class="contacts__mail">
+                <a href="mailto:#"><img src="../../assets/icons/icon-email.png" class="ico ico-mail"
+                    alt="email-icon"></a>
+                <a class="contacts__title-colored" href="mailto:#">
+                  <h4 class="contacts__title-colored">email@shelter.com</h4>
+                </a>
+              </div>
+
+              <div class="contacts__phone">
+                <a href="tel:+136745677554"><img src="../../assets/icons/icon-phone.png" class="ico ico-tel"></a>
+                <a class="contacts__title-colored" href="tel:+136745677554">
+                  <h4 class="contacts__title-colored">+13 674 567 75 54</h4>
+                </a>
+              </div>
+            </div>
+
+          </div> <!-- contacts end -->
+
+          <div class="location">
+            <h3 class="location__title">We are waiting <br class="hidden">for your visit</h3>
+            <div class="location-wrapper">
+              <div class="location__item">
+                <a href="https://tinyurl.com/y6jv2hxt" target="_blank"><img src="../../assets/icons/icon-marker.png"
+                    class="ico ico-location"></a>
+                <a class="location__title-colored" href="https://tinyurl.com/y6jv2hxt" target="_blank">
+                  <h4 class="location__title-colored">1 Central Street, Boston (entrance from the store)</h4>
+                </a>
+              </div>
+              <div class="location__item">
+                <a href="https://tinyurl.com/y6ngm7xu" target="_blank"><img src="../../assets/icons/icon-marker.png"
+                    class="ico ico-location"></a>
+                <a class="location__title-colored" href="https://tinyurl.com/y6ngm7xu" target="_blank">
+                  <h4 class="location__title-colored">18 South Park, London</h4>
+                </a>
+              </div>
+            </div>
+          </div> <!-- lacation end -->
+
+          <div class="footer__puppy">
+            <img src="../../assets/images/footer-puppy.png" width="300" height="310" alt="puppy">
+          </div>
+        </div> <!-- footer inner end -->
+      </div>
+    </footer>
+  </div> <!-- background wrapper end -->
+  <script src="script.js"></script>
+  <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+  <script>
+//     var mySwiper = new Swiper('.swiper-container', {
+//   // Optional parameters
+//   slidesPerView: 3,
+//       loop:true,
+//   // If we need pagination
+//   pagination: {
+//     el: '.swiper-pagination',
+//   },
+
+//   // Navigation arrows
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+
+//   // And if we need scrollbar
+
+// })
+  </script>
+</body>
+
+</html>

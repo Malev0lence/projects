@@ -1,0 +1,62 @@
+.button {
+  padding: 1.3rem 4.3rem;
+
+  font-family: $font-family-secondary;
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.06em;
+
+  color: $color-dark-3xl;
+
+  cursor: pointer;
+
+  outline: none;
+
+  background-color: transparent;
+
+  border: 2px solid $color-primary;
+  border-radius: 100px;
+
+  &:hover {
+    background-color: $color-primary-light;
+    border-color: $color-primary-light;
+  }
+}
+
+.button-colored {
+  background-color: $color-primary;
+}
+
+.button-arrow {
+  width: 5.2rem;
+  height: 5.2rem;
+  padding: 0;
+  font-family: $font-family-secondary;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.06em;
+
+
+  color: $color-dark-3xl;
+}
+
+.button-arrow-disabled {
+  border: 2px solid $color-dark-s;
+  color: $color-dark-s;
+  &:hover {
+    background-color: transparent;
+    border-color: $color-dark-s;
+    cursor: default;
+  }
+}
+
+.button-close {
+  width: 5.2rem;
+  height: 5.2rem;
+  padding: 0;
+}
+
+.button-close--active {
+  background-color: $color-primary-light;
+  border-color: $color-primary-light;
+}

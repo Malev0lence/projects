@@ -1,0 +1,28 @@
+.about__wrapper {
+  display: flex;
+  padding-bottom: 8.9rem;
+}
+
+.about__image {
+  padding-top: 8rem;
+  padding-left: 17.5rem;
+}
+
+.about__content {
+  width: 35.83%;
+  margin-left: 12rem;
+  padding-top: 9.4rem;
+}
+
+.about__title {
+  margin-bottom: 2.5rem;
+}
+
+.about__text {
+  padding-bottom: 2.5rem;
+
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+
+  color: $color-dark-xl;
+}

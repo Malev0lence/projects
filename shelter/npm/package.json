@@ -1,0 +1,16 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "styleMain": "sass --watch ../pages/main/sass/style.scss ../pages/main/style.css",
+    "stylePets": "sass --watch ../pages/pets/sass/style.scss ../pages/pets/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.27.0"
+  }
+}

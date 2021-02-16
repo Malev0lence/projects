@@ -1,0 +1,36 @@
+.header {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  height: 10rem;
+  z-index: 3;
+  background-color: #fff;
+
+  @media (max-width: 1279px) {
+    padding-top: 3rem;
+  }
+}
+
+.header--sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header--active {
+  position: relative;
+  z-index: 2;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo--active {
+  opacity: 0;
+}
+
+.header + .our-friends {
+  padding-top: 10rem;
+}

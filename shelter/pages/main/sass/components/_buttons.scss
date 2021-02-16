@@ -1,0 +1,50 @@
+.button {
+  padding: 1.3rem 4.3rem;
+
+  font-family: $font-family-secondary;
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+  letter-spacing: 0.06em;
+
+  color: $color-dark-3xl;
+
+  cursor: pointer;
+
+  outline: none;
+
+  background-color: transparent;
+
+  border: 2px solid $color-primary;
+  border-radius: 100px;
+
+  &:hover {
+    background-color: $color-primary-light;
+    border-color: $color-primary-light;
+  }
+}
+
+.button-colored {
+  background-color: $color-primary;
+}
+
+.button-arrow {
+  width: 5.2rem;
+  height: 5.2rem;
+  padding: 0;
+
+  img {
+    margin-bottom: 3px;
+    margin-left: 2px;
+  }
+}
+
+.button-close {
+  width: 5.2rem;
+  height: 5.2rem;
+  padding: 0;
+}
+
+.button-close--active {
+  background-color: $color-primary-light;
+  border-color: $color-primary-light;
+}
